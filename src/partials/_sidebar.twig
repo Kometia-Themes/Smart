@@ -1,21 +1,26 @@
+{% if settings.show_sidebar %}
 <div class="sidebar__sidebar">
-{% if settings.categories_sidebar_display and (category.title != '' or page_title == 'Productos' ) %}
+{% if settings.categories_sidebar_display %}
+  {% set currentCategory = category.title %}
   <h4 class="sidebar__sidebar-title">{{ settings.categories_sidebar_title }}</h4>
   <ul class="sidebar__sidebar-list active">
     {% if categories | length > 0 %}
       {% for categoryElement in categories %}
+        {% if categoryElement.title != currentCategory %}
         {% include '_category_tree_item.twig' with {
           'category' : categoryElement,
           'current'  : category,
           'parent': 'categorias'
         } only %}
+        {% endif %}
       {% endfor %}
   {% else %}
     <li class="sidebar__sidebar-item"><a class="sidebar__sidebar-item-link">No hay categorías</a></li>
   {% endif %}
   </ul>
 {% endif %}
-{% if settings.collections_sidebar_display and collection.title != ''%}
+
+{% if settings.collections_sidebar_display %}
 {% set currentCollection = collection.title %}
   <h4 class="sidebar__sidebar-title">{{ settings.collections_sidebar_title }}</h4>
   <ul class="sidebar__sidebar-list active">
@@ -34,4 +39,25 @@
   {% endif %}
   </ul>
 {% endif %}
+
+{% if settings.show_sidebar_menu and settings.sidebar_menu_name is not empty %}
+  {% if settings.sidebar_menu_title is not empty %}
+  <h4 class="sidebar__sidebar-title">{{ settings.sidebar_menu_title }}</h4>
+  {% endif %}
+  <ul class="sidebar__sidebar-list active">
+    {% for link in menus[settings.sidebar_menu_name] %}
+    <li class="sidebar__sidebar-item">
+      <a class="sidebar__sidebar-list-title" href="{{ link.url }}">{{ link.name }}</a>
+    </li>
+    {% if link.children | length >= 1 %}
+      {% for child in link.children if child.name is not empty  %}
+        <li class="sidebar__sidebar-item">
+          <a class="sidebar__sidebar-list-title" href="{{ child.url }}">{{ child.name }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
 </div>
+{% endif %}

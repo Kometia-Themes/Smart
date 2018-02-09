@@ -491,7 +491,8 @@
                   "group": "Sans-serif"
                 },
                 {
-                  "value": "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
+                  "value":
+                    "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
                   "label": "Lucida Grande",
                   "group": "Sans-serif"
                 },
@@ -516,7 +517,8 @@
                   "group": "Serif"
                 },
                 {
-                  "value": "Palatino, 'Palatino Linotype', 'Book Antiqua', serif",
+                  "value":
+                    "Palatino, 'Palatino Linotype', 'Book Antiqua', serif",
                   "label": "Palatino",
                   "group": "Serif"
                 },
@@ -531,7 +533,8 @@
                   "group": "Monospace"
                 },
                 {
-                  "value": "Monaco, 'Lucida Console', 'DejaVu Sans Mono', monospace",
+                  "value":
+                    "Monaco, 'Lucida Console', 'DejaVu Sans Mono', monospace",
                   "label": "Monaco/Lucida Console",
                   "group": "Monospace"
                 }
@@ -570,7 +573,8 @@
               "id": "body_font_weight",
               "label": "Peso",
               "default": "300",
-              "info": "Comprueba que existe el peso seleccionado en https://fonts.google.com.",
+              "info":
+                "Comprueba que existe el peso seleccionado en https://fonts.google.com.",
               "options": [
                 {
                   "value": "",
@@ -776,7 +780,8 @@
                   "group": "Sans-serif"
                 },
                 {
-                  "value": "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
+                  "value":
+                    "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
                   "label": "Lucida Grande",
                   "group": "Sans-serif"
                 },
@@ -801,7 +806,8 @@
                   "group": "Serif"
                 },
                 {
-                  "value": "Palatino, 'Palatino Linotype', 'Book Antiqua', serif",
+                  "value":
+                    "Palatino, 'Palatino Linotype', 'Book Antiqua', serif",
                   "label": "Palatino",
                   "group": "Serif"
                 },
@@ -816,7 +822,8 @@
                   "group": "Monospace"
                 },
                 {
-                  "value": "Monaco, 'Lucida Console', 'DejaVu Sans Mono', monospace",
+                  "value":
+                    "Monaco, 'Lucida Console', 'DejaVu Sans Mono', monospace",
                   "label": "Monaco/Lucida Console",
                   "group": "Monospace"
                 }
@@ -863,7 +870,8 @@
               "id": "heading_font_weight",
               "label": "Peso",
               "default": "300",
-              "info": "Comprueba que existe el peso seleccionado en https://fonts.google.com.",
+              "info":
+                "Comprueba que existe el peso seleccionado en https://fonts.google.com.",
               "options": [
                 {
                   "value": "",
@@ -962,7 +970,8 @@
               "type": "text",
               "id": "footer_contact_data",
               "label": "Contacto y/o ubicación",
-              "default": "CALLE 000, COLONIA, DELEGACION/MUNICIPIO, MÉXICO, ESTADO, C.P. 00000 TELÉFONO (+52) 000 000000 - (+52) 000 000000 INFO@MIEMPRESA.COM"
+              "default":
+                "CALLE 000, COLONIA, DELEGACION/MUNICIPIO, MÉXICO, ESTADO, C.P. 00000 TELÉFONO (+52) 000 000000 - (+52) 000 000000 INFO@MIEMPRESA.COM"
             },
             {
               "type": "checkbox",
@@ -1038,7 +1047,8 @@
               "type": "text",
               "id": "footer_hours_data_text",
               "label": "Contacto y/o ubicación",
-              "default": "<li>L-J 13:00 a 23:00</li><li>V y S 13:00 a 24:00</li><li>D 13:00 a 23:00</li>"
+              "default":
+                "<li>L-J 13:00 a 23:00</li><li>V y S 13:00 a 24:00</li><li>D 13:00 a 23:00</li>"
             }
           ]
         },
@@ -1106,7 +1116,8 @@
           "settings": [
             {
               "type": "paragraph",
-              "content": "Elige las secciones de tu página de inicio y su posición."
+              "content":
+                "Elige las secciones de tu página de inicio y su posición."
             },
             {
               "type": "select",
@@ -1706,7 +1717,8 @@
               "id": "featured_products_limit",
               "label": "Límite de Productos a Mostrar",
               "default": "8",
-              "info": "Para mostrar todos los productos de esta colección deja vacío este campo"
+              "info":
+                "Para mostrar todos los productos de esta colección deja vacío este campo"
             }
           ]
         }
@@ -1794,7 +1806,8 @@
               "id": "promo_home_1_icon_name",
               "label": "Título Promo 1",
               "default": "truck",
-              "info": "Ver íconos disponibles en https://materialdesignicons.com/"
+              "info":
+                "Ver íconos disponibles en https://materialdesignicons.com/"
             },
             {
               "type": "checkbox",
@@ -1825,7 +1838,8 @@
               "id": "promo_home_2_icon_name",
               "label": "Título Promo 2",
               "default": "motorbike",
-              "info": "Ver íconos disponibles en https://materialdesignicons.com/"
+              "info":
+                "Ver íconos disponibles en https://materialdesignicons.com/"
             },
             {
               "type": "checkbox",
@@ -1856,7 +1870,8 @@
               "id": "promo_home_3_icon_name",
               "label": "Título Promo 3",
               "default": "food-apple",
-              "info": "Ver íconos disponibles en https://materialdesignicons.com/"
+              "info":
+                "Ver íconos disponibles en https://materialdesignicons.com/"
             }
           ]
         },
@@ -2058,7 +2073,8 @@
               "type": "checkbox",
               "id": "btn_product_buy_in_list",
               "label": "Mostrar botón comprar ya",
-              "info": "Si está activa esta opción, el botón se mostrará en el producto dentro de productos, colección y categoría."
+              "info":
+                "Si está activa esta opción, el botón se mostrará en el producto dentro de productos, colección y categoría."
             },
             {
               "type": "text",
@@ -2076,7 +2092,8 @@
               "type": "checkbox",
               "id": "product_tagcolor",
               "label": "Usar tagcolor",
-              "info": "Si está activo se usarán las imágenes con nombre inicial 'tagcolor-'. El tamaño máximo es de 50px por 50px."
+              "info":
+                "Si está activo se usarán las imágenes con nombre inicial 'tagcolor-'. El tamaño máximo es de 50px por 50px."
             },
             {
               "type": "checkbox",
@@ -2153,33 +2170,6 @@
           ]
         },
         {
-          "header": "Sidebar",
-          "settings": [
-            {
-              "type": "text",
-              "id": "categories_sidebar_title",
-              "label": "Título categorías",
-              "default": "Categorías"
-            },
-            {
-              "type": "checkbox",
-              "id": "categories_sidebar_display",
-              "label": "Mostrar categorías"
-            },
-            {
-              "type": "text",
-              "id": "collections_sidebar_title",
-              "label": "Título colecciones",
-              "default": "Colecciones"
-            },
-            {
-              "type": "checkbox",
-              "id": "collections_sidebar_display",
-              "label": "Mostrar colecciones"
-            }
-          ]
-        },
-        {
           "header": "Filtro de ordenamiento",
           "settings": [
             {
@@ -2238,6 +2228,75 @@
       ]
     },
     {
+      "name": "Sidebar",
+      "icon": "product-page",
+      "sections": [
+        {
+          "header": "Sidebar",
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "show_sidebar",
+              "label": "Mostrar sidebar",
+              "default": true
+            }
+          ]
+        },
+        {
+          "header": "Categorías",
+          "settings": [
+            {
+              "type": "text",
+              "id": "categories_sidebar_title",
+              "label": "Título categorías",
+              "default": "Categorías"
+            },
+            {
+              "type": "checkbox",
+              "id": "categories_sidebar_display",
+              "label": "Mostrar categorías"
+            }
+          ]
+        },
+        {
+          "header": "Colecciones",
+          "settings": [
+            {
+              "type": "text",
+              "id": "collections_sidebar_title",
+              "label": "Título colecciones",
+              "default": "Colecciones"
+            },
+            {
+              "type": "checkbox",
+              "id": "collections_sidebar_display",
+              "label": "Mostrar colecciones"
+            }
+          ]
+        },
+        {
+          "header": "Menú",
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "show_sidebar_menu",
+              "label": "Mostrar menú"
+            },
+            {
+              "type": "text",
+              "id": "sidebar_menu_name",
+              "label": "Identificador del menú"
+            },
+            {
+              "type": "text",
+              "id": "sidebar_menu_title",
+              "label": "Título del menú"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Contacto",
       "icon": "contact-page",
       "sections": [
@@ -2273,7 +2332,8 @@
               "id": "map_api_key",
               "default": "AIzaSyBjWefNJdkFjr8IC6izNHSj-9hJzCwIAr0",
               "label": "API KEY",
-              "info": "API Key DEMO, Visita: https://developers.google.com/maps/documentation/geocoding/get-api-key y obtén una clave para continuar usando el mapa correctamente"
+              "info":
+                "API Key DEMO, Visita: https://developers.google.com/maps/documentation/geocoding/get-api-key y obtén una clave para continuar usando el mapa correctamente"
             }
           ]
         }
@@ -2318,7 +2378,8 @@
               "type": "text",
               "id": "gift_title_message",
               "label": "Título",
-              "default": "Esto es un regalo. Incluir el siguiente mensaje (150 caracteres máximo)."
+              "default":
+                "Esto es un regalo. Incluir el siguiente mensaje (150 caracteres máximo)."
             },
             {
               "type": "text",

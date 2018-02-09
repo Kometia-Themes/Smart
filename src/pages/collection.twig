@@ -1,7 +1,7 @@
 {% extends 'layout.twig' %}
 
 {% block body %}
-{% set  displaySidebar = settings.collections_sidebar_display == true %}
+{% set  displaySidebar = settings.show_sidebar %}
   <div class="container page collection-page">
     <div class="row">
       <div class="col-xs-12">
@@ -12,6 +12,7 @@
       </div>
     </div>
     <div class="row">
+    {% include '_filterbar.twig' %}
       <div class="col-xs-12 {% if displaySidebar %} col-sm-8 col-sm-push-4 col-md-9 col-md-push-3{% endif %}">
         <div class="row">
         {% if products.count == 0 %}
@@ -31,7 +32,7 @@
             <div class="col-xs-12">
               <div class="row symmetrical-container">
               {% for product in products %}
-                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 symmetrical">
+                <div class="col-xs-6 col-sm-6 col-md-3 symmetrical">
                   {% include '_product-card.twig' %}
                 </div>
               {% endfor %}
