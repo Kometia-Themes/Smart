@@ -1,6 +1,6 @@
 <div class="featured-blog-home__content">
   <p class="featured-blog-home__blog-name">{{ settings.featured_blog | title }}</p>
-  <h3 class="featured-blog-home__title"> <a href="/blogs/{{ blog.permalink }}/posts/{{ post.permalink }}">{{ post.title | title }}</a></h3>
+  <h3 class="featured-blog-home__title"> <a href="/blogs/{{ blog.permalink }}/posts/{{ post.permalink }}">{{ post.title }}</a></h3>
   <div class="featured-blog-home__thumbnail">
     {% if post.image_url is not null %}
     <a class="featured-blog-home--link" href="/blogs/{{ blog.permalink }}/posts/{{ post.permalink }}">

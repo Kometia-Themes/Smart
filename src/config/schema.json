@@ -1879,6 +1879,11 @@
           "header": "Banner parallax uno",
           "settings": [
             {
+              "type": "checkbox",
+              "id": "featured_parallax_banner_one",
+              "label": "Activar banner"
+            },
+            {
               "type": "text",
               "id": "featured_banner_home_one_title",
               "default": "TÍTULO DEL Banner"
@@ -1921,9 +1926,14 @@
           "header": "Banner parallax dos",
           "settings": [
             {
+              "type": "checkbox",
+              "id": "featured_parallax_banner_two",
+              "label": "Activar banner"
+            },
+            {
               "type": "text",
               "id": "featured_banner_home_two_title",
-              "default": "TÍTULO DEL Banner"
+              "default": "Título del Banner"
             },
             {
               "type": "text",
