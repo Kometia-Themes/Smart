@@ -19,8 +19,6 @@
   &__sidebar-container {
     position: relative;
     margin-top: 0;
-    border-left: 1px solid $sidebar_lines_color;
-    padding-left: 1em;
     color: $sidebar_texts_color;
     background-color: $sidebar_bg_color;
   }
@@ -28,6 +26,9 @@
   &__sidebar {
     position: relative;
     width: auto;
+    border-left: 1px solid $sidebar_lines_color;
+    padding-left: 1em;
+
     ul {
       padding-left: 0;
       list-style: none;
@@ -55,11 +56,12 @@
     &-list {
       margin-bottom: 10px;
       &-title {
+        font-size: 14px;
         position: relative;
         color: $sidebar_titles_color !important;
         display: block;
         width: 100%;
-        padding: 12px 15px 12px 0;
+        padding: 8px 15px 8px 0;
       }
       &-title:hover {
         color: $main_link_color !important;
@@ -70,7 +72,7 @@
         right: 0;
         top: 0;
         z-index: 99;
-        padding: 12px 0 12px 15px;
+        padding: 8px 0 8px 15px;
         i.mdi {
           color: $sidebar_texts_color;
         }

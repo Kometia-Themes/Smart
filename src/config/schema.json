@@ -187,29 +187,6 @@
           ]
         },
         {
-          "header": "Promos",
-          "settings": [
-            {
-              "type": "color",
-              "id": "promo_home_color_title",
-              "label": "Títulos",
-              "default": "#f15a29"
-            },
-            {
-              "type": "color",
-              "id": "promo_home_color_desc",
-              "label": "Descripción",
-              "default": "#666666"
-            },
-            {
-              "type": "color",
-              "id": "promo_home_color_icon",
-              "label": "Ícono",
-              "default": "#f15a29"
-            }
-          ]
-        },
-        {
           "header": "Menú en sidebar",
           "settings": [
             {
@@ -491,8 +468,7 @@
                   "group": "Sans-serif"
                 },
                 {
-                  "value":
-                    "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
+                  "value": "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
                   "label": "Lucida Grande",
                   "group": "Sans-serif"
                 },
@@ -517,8 +493,7 @@
                   "group": "Serif"
                 },
                 {
-                  "value":
-                    "Palatino, 'Palatino Linotype', 'Book Antiqua', serif",
+                  "value": "Palatino, 'Palatino Linotype', 'Book Antiqua', serif",
                   "label": "Palatino",
                   "group": "Serif"
                 },
@@ -533,8 +508,7 @@
                   "group": "Monospace"
                 },
                 {
-                  "value":
-                    "Monaco, 'Lucida Console', 'DejaVu Sans Mono', monospace",
+                  "value": "Monaco, 'Lucida Console', 'DejaVu Sans Mono', monospace",
                   "label": "Monaco/Lucida Console",
                   "group": "Monospace"
                 }
@@ -573,8 +547,7 @@
               "id": "body_font_weight",
               "label": "Peso",
               "default": "300",
-              "info":
-                "Comprueba que existe el peso seleccionado en https://fonts.google.com.",
+              "info": "Comprueba que existe el peso seleccionado en https://fonts.google.com.",
               "options": [
                 {
                   "value": "",
@@ -780,8 +753,7 @@
                   "group": "Sans-serif"
                 },
                 {
-                  "value":
-                    "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
+                  "value": "'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Lucida, Helvetica, Arial, sans-serif",
                   "label": "Lucida Grande",
                   "group": "Sans-serif"
                 },
@@ -806,8 +778,7 @@
                   "group": "Serif"
                 },
                 {
-                  "value":
-                    "Palatino, 'Palatino Linotype', 'Book Antiqua', serif",
+                  "value": "Palatino, 'Palatino Linotype', 'Book Antiqua', serif",
                   "label": "Palatino",
                   "group": "Serif"
                 },
@@ -822,8 +793,7 @@
                   "group": "Monospace"
                 },
                 {
-                  "value":
-                    "Monaco, 'Lucida Console', 'DejaVu Sans Mono', monospace",
+                  "value": "Monaco, 'Lucida Console', 'DejaVu Sans Mono', monospace",
                   "label": "Monaco/Lucida Console",
                   "group": "Monospace"
                 }
@@ -870,8 +840,7 @@
               "id": "heading_font_weight",
               "label": "Peso",
               "default": "300",
-              "info":
-                "Comprueba que existe el peso seleccionado en https://fonts.google.com.",
+              "info": "Comprueba que existe el peso seleccionado en https://fonts.google.com.",
               "options": [
                 {
                   "value": "",
@@ -970,8 +939,7 @@
               "type": "text",
               "id": "footer_contact_data",
               "label": "Contacto y/o ubicación",
-              "default":
-                "CALLE 000, COLONIA, DELEGACION/MUNICIPIO, MÉXICO, ESTADO, C.P. 00000 TELÉFONO (+52) 000 000000 - (+52) 000 000000 INFO@MIEMPRESA.COM"
+              "default": "CALLE 000, COLONIA, DELEGACION/MUNICIPIO, MÉXICO, ESTADO, C.P. 00000 TELÉFONO (+52) 000 000000 - (+52) 000 000000 INFO@MIEMPRESA.COM"
             },
             {
               "type": "checkbox",
@@ -1025,30 +993,6 @@
               "id": "footer_second_menu_name",
               "label": "identificador del menú",
               "default": "footer"
-            }
-          ]
-        },
-        {
-          "header": "Horarios del establecimiento",
-          "settings": [
-            {
-              "type": "checkbox",
-              "id": "footer_display_hours",
-              "label": "Mostrar horarios",
-              "default": true
-            },
-            {
-              "type": "text",
-              "id": "footer_display_hours_title",
-              "label": "Horarios",
-              "default": "Horariosa"
-            },
-            {
-              "type": "text",
-              "id": "footer_hours_data_text",
-              "label": "Contacto y/o ubicación",
-              "default":
-                "<li>L-J 13:00 a 23:00</li><li>V y S 13:00 a 24:00</li><li>D 13:00 a 23:00</li>"
             }
           ]
         },
@@ -1116,8 +1060,7 @@
           "settings": [
             {
               "type": "paragraph",
-              "content":
-                "Elige las secciones de tu página de inicio y su posición."
+              "content": "Elige las secciones de tu página de inicio y su posición."
             },
             {
               "type": "select",
@@ -1138,8 +1081,8 @@
                   "label": "Colecciones destacadas"
                 },
                 {
-                  "value": "featured-promos",
-                  "label": "Promos gráficos"
+                  "value": "featured-video",
+                  "label": "Video"
                 },
                 {
                   "value": "featured-static-banner",
@@ -1156,10 +1099,6 @@
                 {
                   "value": "featured-blog",
                   "label": "Blog destacado"
-                },
-                {
-                  "value": "featured-banner-parallax-two",
-                  "label": "Banner parallax dos"
                 }
               ]
             },
@@ -1182,8 +1121,8 @@
                   "label": "Colecciones destacadas"
                 },
                 {
-                  "value": "featured-promos",
-                  "label": "Promos gráficos"
+                  "value": "featured-video",
+                  "label": "Video"
                 },
                 {
                   "value": "featured-static-banner",
@@ -1200,10 +1139,6 @@
                 {
                   "value": "featured-blog",
                   "label": "Blog destacado"
-                },
-                {
-                  "value": "featured-banner-parallax-two",
-                  "label": "Banner parallax dos"
                 }
               ]
             },
@@ -1211,7 +1146,7 @@
               "type": "select",
               "id": "frontpage_section_3",
               "label": "Sección 3",
-              "default": "featured-promos",
+              "default": "featured-video",
               "options": [
                 {
                   "value": "none",
@@ -1226,8 +1161,8 @@
                   "label": "Colecciones destacadas"
                 },
                 {
-                  "value": "featured-promos",
-                  "label": "Promos gráficos"
+                  "value": "featured-video",
+                  "label": "Video"
                 },
                 {
                   "value": "featured-static-banner",
@@ -1244,10 +1179,6 @@
                 {
                   "value": "featured-blog",
                   "label": "Blog destacado"
-                },
-                {
-                  "value": "featured-banner-parallax-two",
-                  "label": "Banner parallax dos"
                 }
               ]
             },
@@ -1270,8 +1201,8 @@
                   "label": "Colecciones destacadas"
                 },
                 {
-                  "value": "featured-promos",
-                  "label": "Promos gráficos"
+                  "value": "featured-video",
+                  "label": "Video"
                 },
                 {
                   "value": "featured-static-banner",
@@ -1288,10 +1219,6 @@
                 {
                   "value": "featured-blog",
                   "label": "Blog destacado"
-                },
-                {
-                  "value": "featured-banner-parallax-two",
-                  "label": "Banner parallax dos"
                 }
               ]
             },
@@ -1314,8 +1241,8 @@
                   "label": "Colecciones destacadas"
                 },
                 {
-                  "value": "featured-promos",
-                  "label": "Promos gráficos"
+                  "value": "featured-video",
+                  "label": "Video"
                 },
                 {
                   "value": "featured-static-banner",
@@ -1332,10 +1259,6 @@
                 {
                   "value": "featured-blog",
                   "label": "Blog destacado"
-                },
-                {
-                  "value": "featured-banner-parallax-two",
-                  "label": "Banner parallax dos"
                 }
               ]
             },
@@ -1358,8 +1281,8 @@
                   "label": "Colecciones destacadas"
                 },
                 {
-                  "value": "featured-promos",
-                  "label": "Promos gráficos"
+                  "value": "featured-video",
+                  "label": "Video"
                 },
                 {
                   "value": "featured-static-banner",
@@ -1376,10 +1299,6 @@
                 {
                   "value": "featured-blog",
                   "label": "Blog destacado"
-                },
-                {
-                  "value": "featured-banner-parallax-two",
-                  "label": "Banner parallax dos"
                 }
               ]
             },
@@ -1402,8 +1321,8 @@
                   "label": "Colecciones destacadas"
                 },
                 {
-                  "value": "featured-promos",
-                  "label": "Promos gráficos"
+                  "value": "featured-video",
+                  "label": "Video"
                 },
                 {
                   "value": "featured-static-banner",
@@ -1420,54 +1339,6 @@
                 {
                   "value": "featured-blog",
                   "label": "Blog destacado"
-                },
-                {
-                  "value": "featured-banner-parallax-two",
-                  "label": "Banner parallax dos"
-                }
-              ]
-            },
-            {
-              "type": "select",
-              "id": "frontpage_section_8",
-              "label": "Sección 8",
-              "default": "featured-banner-parallax-two",
-              "options": [
-                {
-                  "value": "none",
-                  "label": "Ningúno"
-                },
-                {
-                  "value": "featured-slider",
-                  "label": "Slider principal"
-                },
-                {
-                  "value": "featured-collections",
-                  "label": "Colecciones destacadas"
-                },
-                {
-                  "value": "featured-promos",
-                  "label": "Promos gráficos"
-                },
-                {
-                  "value": "featured-static-banner",
-                  "label": "Banner"
-                },
-                {
-                  "value": "featured-products",
-                  "label": "Productos destacados"
-                },
-                {
-                  "value": "featured-banner-parallax-one",
-                  "label": "Banner parallax uno"
-                },
-                {
-                  "value": "featured-blog",
-                  "label": "Blog destacado"
-                },
-                {
-                  "value": "featured-banner-parallax-two",
-                  "label": "Banner parallax dos"
                 }
               ]
             }
@@ -1694,6 +1565,66 @@
       ]
     },
     {
+      "name": "Página de Inicio - Video",
+      "icon": "home-page",
+      "sections": [
+        {
+          "settings": [
+            {
+              "type": "checkbox",
+              "id": "video_enable",
+              "label": "Mostrar el video",
+              "default": false
+            },
+            {
+              "type": "text",
+              "id": "video_title",
+              "label": "Título de sección",
+              "default": ""
+            },
+            {
+              "type": "text",
+              "id": "video_url",
+              "label": "Liga al video",
+              "info": "Si tu video es de Vimeo, busca la opción compartir y luego insertar. Copia solo la sección que inicia con https://player.vimeo.com/video/{numero}"
+            },
+            {
+              "type": "select",
+              "id": "video_url_type",
+              "label": "Origen del video",
+              "default": "youtube",
+              "options": [
+                {
+                  "value": "youtube",
+                  "label": "Youtube"
+                },
+                {
+                  "value": "vimeo",
+                  "label": "Vimeo"
+                }
+              ]
+            },
+            {
+              "type": "select",
+              "id": "video_format_size",
+              "label": "Proporción del video",
+              "default": "16by9",
+              "options": [
+                {
+                  "value": "16by9",
+                  "label": "16 x 9"
+                },
+                {
+                  "value": "4by3",
+                  "label": "4 x 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Página de Inicio - Productos",
       "icon": "home-page",
       "sections": [
@@ -1717,8 +1648,7 @@
               "id": "featured_products_limit",
               "label": "Límite de Productos a Mostrar",
               "default": "8",
-              "info":
-                "Para mostrar todos los productos de esta colección deja vacío este campo"
+              "info": "Para mostrar todos los productos de esta colección deja vacío este campo"
             }
           ]
         }
@@ -1775,108 +1705,7 @@
           ]
         },
         {
-          "header": "Promos Gráficos",
-          "settings": [
-            {
-              "type": "checkbox",
-              "id": "promo_home_1_display",
-              "label": "Mostrar Promo 1",
-              "default": true
-            },
-            {
-              "type": "text",
-              "id": "promo_home_1_title",
-              "label": "Título Promo 1",
-              "default": "GRATIS"
-            },
-            {
-              "type": "text",
-              "id": "promo_home_1_desc",
-              "label": "Descripción",
-              "default": "EL ENVÍO SI COMPRAS +$200"
-            },
-            {
-              "type": "checkbox",
-              "id": "promo_home_1_icon",
-              "default": true,
-              "label": "Mostrar ícono promo 1"
-            },
-            {
-              "type": "text",
-              "id": "promo_home_1_icon_name",
-              "label": "Título Promo 1",
-              "default": "truck",
-              "info":
-                "Ver íconos disponibles en https://materialdesignicons.com/"
-            },
-            {
-              "type": "checkbox",
-              "id": "promo_home_2_display",
-              "default": true,
-              "label": "Mostrar Promo 2"
-            },
-            {
-              "type": "text",
-              "id": "promo_home_2_title",
-              "label": "Título Promo 2",
-              "default": "EXPRESS"
-            },
-            {
-              "type": "text",
-              "id": "promo_home_2_desc",
-              "label": "Descripción",
-              "default": "LLEGA DE 30 A 45 MINUTOS*"
-            },
-            {
-              "type": "checkbox",
-              "id": "promo_home_2_icon",
-              "default": true,
-              "label": "Mostrar ícono promo 2"
-            },
-            {
-              "type": "text",
-              "id": "promo_home_2_icon_name",
-              "label": "Título Promo 2",
-              "default": "motorbike",
-              "info":
-                "Ver íconos disponibles en https://materialdesignicons.com/"
-            },
-            {
-              "type": "checkbox",
-              "id": "promo_home_3_display",
-              "default": true,
-              "label": "Mostrar Promo 3"
-            },
-            {
-              "type": "text",
-              "id": "promo_home_3_title",
-              "label": "Título Promo 3",
-              "default": "GARANTÍA"
-            },
-            {
-              "type": "text",
-              "id": "promo_home_3_desc",
-              "label": "Descripción",
-              "default": "SIEMPRE FRESCO"
-            },
-            {
-              "type": "checkbox",
-              "id": "promo_home_3_icon",
-              "default": true,
-              "label": "Mostrar ícono promo 3"
-            },
-            {
-              "type": "text",
-              "id": "promo_home_3_icon_name",
-              "label": "Título Promo 3",
-              "default": "food-apple",
-              "info":
-                "Ver íconos disponibles en https://materialdesignicons.com/"
-            }
-          ]
-        },
-        {
-          "header": "Banner parallax uno",
+          "header": "Banner parallax",
           "settings": [
             {
               "type": "checkbox",
@@ -1886,84 +1715,42 @@
             {
               "type": "text",
               "id": "featured_banner_home_one_title",
-              "default": "TÍTULO DEL Banner"
+              "label": "Título",
+              "default": "TÍTULO"
             },
             {
               "type": "text",
               "id": "featured_banner_home_one_subtitle",
+              "label": "Subtítulo",
               "default": "SUBTÍTULO"
             },
             {
               "type": "text",
               "id": "featured_banner_home_one_intro",
-              "default": "Describa eso deliciosos ingredientes."
+              "label": "Descripción",
+              "default": ""
             },
             {
               "type": "text",
               "id": "featured_banner_home_one_btn_text",
+              "label": "Texto del botón",
               "default": "Pídelo Ya!"
             },
             {
               "type": "text",
               "id": "featured_banner_home_one_link",
+              "label": "Enlace del banner",
               "default": "#"
             },
             {
               "type": "checkbox",
               "id": "featured_banner_home_one_overlay",
-              "default": true,
-              "label": "Mostrar capa de oscurecimiento"
+              "label": "Mostrar capa de oscurecimiento",
+              "default": true
             },
             {
               "type": "image",
               "id": "featured_banner_home_one_image_url",
-              "label": "Imagen de fondo",
-              "info": "1280px de ancho recomendado"
-            }
-          ]
-        },
-        {
-          "header": "Banner parallax dos",
-          "settings": [
-            {
-              "type": "checkbox",
-              "id": "featured_parallax_banner_two",
-              "label": "Activar banner"
-            },
-            {
-              "type": "text",
-              "id": "featured_banner_home_two_title",
-              "default": "Título del Banner"
-            },
-            {
-              "type": "text",
-              "id": "featured_banner_home_two_subtitle",
-              "default": "SUBTÍTULO"
-            },
-            {
-              "type": "text",
-              "id": "featured_banner_home_two_intro",
-              "default": "Describa eso deliciosos ingredientes."
-            },
-            {
-              "type": "text",
-              "id": "featured_banner_home_two_btn_text",
-              "default": "¡Comprar Ya!"
-            },
-            {
-              "type": "text",
-              "id": "featured_banner_home_two_link",
-              "default": "#"
-            },
-            {
-              "type": "checkbox",
-              "id": "featured_banner_home_two_overlay",
-              "default": true,
-              "label": "Mostrar capa de oscurecimiento"
-            },
-            {
-              "type": "image",
-              "id": "featured_banner_home_two_image_url",
               "label": "Imagen de fondo",
               "info": "1280px de ancho recomendado"
             }
@@ -2083,8 +1870,7 @@
               "type": "checkbox",
               "id": "btn_product_buy_in_list",
               "label": "Mostrar botón comprar ya",
-              "info":
-                "Si está activa esta opción, el botón se mostrará en el producto dentro de productos, colección y categoría."
+              "info": "Si está activa esta opción, el botón se mostrará en el producto dentro de productos, colección y categoría."
             },
             {
               "type": "text",
@@ -2102,8 +1888,7 @@
               "type": "checkbox",
               "id": "product_tagcolor",
               "label": "Usar tagcolor",
-              "info":
-                "Si está activo se usarán las imágenes con nombre inicial 'tagcolor-'. El tamaño máximo es de 50px por 50px."
+              "info": "Si está activo se usarán las imágenes con nombre inicial 'tagcolor-'. El tamaño máximo es de 50px por 50px."
             },
             {
               "type": "checkbox",
@@ -2342,8 +2127,7 @@
               "id": "map_api_key",
               "default": "AIzaSyBjWefNJdkFjr8IC6izNHSj-9hJzCwIAr0",
               "label": "API KEY",
-              "info":
-                "API Key DEMO, Visita: https://developers.google.com/maps/documentation/geocoding/get-api-key y obtén una clave para continuar usando el mapa correctamente"
+              "info": "API Key DEMO, Visita: https://developers.google.com/maps/documentation/geocoding/get-api-key y obtén una clave para continuar usando el mapa correctamente"
             }
           ]
         }
@@ -2388,8 +2172,7 @@
               "type": "text",
               "id": "gift_title_message",
               "label": "Título",
-              "default":
-                "Esto es un regalo. Incluir el siguiente mensaje (150 caracteres máximo)."
+              "default": "Esto es un regalo. Incluir el siguiente mensaje (150 caracteres máximo)."
             },
             {
               "type": "text",

@@ -9,12 +9,13 @@
   clear: right;
   .navigation__link {
     position: relative;
-    padding: 1.2em 1em;
+    padding: 1em 1em;
     display: block;
     width: 100%;
+    font-size: 14px;
     @media (max-width: 767px) {
       color: $nav_link_text_color;
-      padding: 1.2em 1em;
+      padding: 1em 1em;
     }
   }
   .navigation__link:hover {
@@ -28,15 +29,16 @@
     padding-right: 0;
     padding-left: 0;
     text-align: center;
-    padding: 1.2em 8px;
+    padding: 1em 8px;
     color: $nav_link_text_color;
   }
-
   .has-children {
     position: relative;
     font-size: 1em;
     .sub__link {
       color: $nav_link_text_color;
+      font-size: 14px;
+      font-weight: bold;
     }
     .sub__link:hover {
       color: $nav_link_text_hover_color;
@@ -153,7 +155,8 @@
   }
 }
 
-.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
   height: auto;
   max-height: 100vh;
 }

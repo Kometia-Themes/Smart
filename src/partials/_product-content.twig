@@ -43,11 +43,6 @@
         </div> <!-- .caorusel -->
         <div class="product">
           <div class="col-xs-12 col-sm-6 col-md-5">
-            <ol class="breadcrumb hidden-xs hidden-sm">
-              <li><a href="/">Inicio</a></li>
-              <li><a href="/productos">Productos</a></li>
-              <li class="active">{{ product.name }}</li>
-            </ol>
             <div class="header">
               <p class="header__status">
               {% if not product.is_in_stock %}
@@ -100,8 +95,8 @@
                 {% if product.skus_modifiers | length > 0 %}
                   {% for attribute, attribute_variants in product.skus_modifiers %}
                     {% if settings.product_tagcolor and attribute | lower == 'color' %}
-                      <p class="product-features hide-product-{{ index }}">{{ attribute | title }}</p>
-                      <div class="form-group product-page__tagcolor hide-product-{{ index }}">
+                      <p class="product-features type-{{ attribute |lower }}">{{ attribute | title }}</p>
+                      <div class="form-group product-page__tagcolor type-{{ attribute |lower }}">
                       {% set step = loop.index - 1 %}
                       {% set default_variant = product.sku.modifiers[step] %}
                       {% for variant in attribute_variants %}
@@ -115,8 +110,8 @@
                       {% endfor %}
                       </div>
                     {% else %}
-                      <p class="product-features hide-product-{{ index }}">{{ attribute | title }}</p>
-                      <div class="form-group hide-product-{{ index }}">
+                      <p class="product-features type-{{ attribute |lower }}">{{ attribute | title }}</p>
+                      <div class="form-group type-{{ attribute |lower }}">
                       {% set step = loop.index - 1 %}
                       {% set default_variant = product.sku.modifiers[step] %}
                       {% for variant in attribute_variants %}

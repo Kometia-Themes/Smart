@@ -1,6 +1,5 @@
 <div class="featured-blog-home__content">
   <p class="featured-blog-home__blog-name">{{ settings.featured_blog | title }}</p>
-  <h3 class="featured-blog-home__title"> <a href="/blogs/{{ blog.permalink }}/posts/{{ post.permalink }}">{{ post.title }}</a></h3>
   <div class="featured-blog-home__thumbnail">
     {% if post.image_url is not null %}
     <a class="featured-blog-home--link" href="/blogs/{{ blog.permalink }}/posts/{{ post.permalink }}">
@@ -13,11 +12,7 @@
     {% endif %}
   </div>
   <div class="featured-blog-home__desc">
-  {% if post.summary %}
-    <p class="featured-blog-home__excerpt">{{ post.summary | truncate_words(20) }}</p>
-  {% else %}
-    <p class="featured-blog-home__excerpt">{{ post.content | truncate_words(20) }}</p>
-  {% endif %}
-    <p class="featured-blog-home__link"><a class="featured-blog-home--link" href="/blogs/{{ blog.permalink }}/posts/{{ post.permalink }}">Ver más</a></p>
+    <h3 class="featured-blog-home__title"> <a href="/blogs/{{ blog.permalink }}/posts/{{ post.permalink }}">{{ post.title }}</a></h3>
+    <p class="featured-blog-home__link"><a class="btn btn-sm btn-primary featured-blog-home--link" href="/blogs/{{ blog.permalink }}/posts/{{ post.permalink }}">Leer más</a></p>
   </div>
 </div>

@@ -15,9 +15,13 @@
   }
   &__card {
     background-color: $product_bg_card;
+    border: 1px solid rgba(255,255,255,0);
     margin-top: 0;
     position: relative;
     margin-bottom: 20px;
+  }
+  &__card:hover {
+    border: 1px solid $brand_main_color;
   }
   &__card:hover &--preview-1 {
     opacity: 0;
@@ -64,6 +68,7 @@
   &__content {
     text-align: center;
     min-height: 100px;
+    padding-bottom: 12px;
   }
   &__thumbnail {
     position: relative;
@@ -145,7 +150,6 @@
   &__price {
     font-size: 1em;
   }
-
   &--discount {
     color: $product_compared_price_color;
     text-decoration: line-through;

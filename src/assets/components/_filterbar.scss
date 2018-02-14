@@ -1,7 +1,10 @@
 #navbar-filter.navbar {
-  margin: 0 0 20px;
+  margin: 0;
+  text-align: right;
+  @media(max-width: 767px) {
+    text-align: center;
+  }
   .navbar-right {
-    float: right !important;
     .navbar-form {
       padding: 0;
       span.filter-bar {
