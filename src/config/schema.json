@@ -1580,7 +1580,7 @@
               "type": "text",
               "id": "video_url",
               "label": "Id del video",
-              "info": "Si tu video es de Youtube, busca la opción compartir y copia el puro ID del video: https://www.youtube.com/watch?v=bnfwClgheF0 donde 'bnfwClgheF0' es el ID. Si tu video es de Vimeo, busca la opción compartir y luego insertar. Copia solo la sección que inicia con https://player.vimeo.com/video/{numero}"
+              "info": "Si tu video es de Youtube, busca la opción compartir y copia el puro ID del video: https://www.youtube.com/watch?v=bnfwClgheF0 donde 'bnfwClgheF0' es el ID. Si tu video es de Vimeo, igualmente copia su ID: https://player.vimeo.com/video/{ID}"
             },
             {
               "type": "select",
