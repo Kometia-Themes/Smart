@@ -37,3 +37,10 @@ fieldset[disabled] .btn-primary:hover {
   border-color: $btn_bg_color;
   filter: sepia(1);
 }
+.label-primary {
+  color: $btn_text_color;
+  background-color: $btn_bg_color;
+}
+.label-primary:focus, .label-primary:hover {
+  text-decoration: none;
+}

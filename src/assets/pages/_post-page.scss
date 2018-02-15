@@ -1,17 +1,30 @@
 .post-page {
-
+  img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+  .block_title .title {
+    margin: 0 0 20px;
+  }
   &__header {
-    text-align: center;
+    text-align: left;
   }
   &__title {
     margin-bottom: 20px;
+  }
+  &__blog-section {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
   }
   &__section-title {
     font-size: 16px;
     color: #999999;
   }
   &__tags {
-    margin-top: 1.4em;
+    margin-top: 0 ;
     margin-bottom: 1em;
   }
   &__tag-title {
