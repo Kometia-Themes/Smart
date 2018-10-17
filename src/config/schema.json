@@ -3,7 +3,7 @@
     "logo": "screenshot.png",
     "header": "Smart Theme",
     "content": [
-      "Tema 'Smart' de Shoperti. Por favor contáctanos por cualquier problema con este tema a [contacto](mailto:themes-support@shoperti.com)."
+      "Tema 'Smart' de Kometia. Por favor contáctanos por cualquier problema con este tema a [contacto](mailto:themes-support@kometia.com)."
     ]
   },
   "categories": [
@@ -2212,50 +2212,50 @@
               "type": "text",
               "id": "facebook_link",
               "label": "Facebook",
-              "default": "https://www.facebook.com/ShopertiHQ",
-              "info": "https://www.facebook.com/shoperti"
+              "default": "https://www.facebook.com/KometiaHQ",
+              "info": "https://www.facebook.com/KometiaHQ"
             },
             {
               "type": "text",
               "id": "twitter_link",
               "label": "Twitter",
-              "info": "https://twitter.com/shoperti"
+              "info": "https://twitter.com/KometiaHQ"
             },
             {
               "type": "text",
               "id": "google_link",
               "label": "Google+",
-              "info": "https://plus.google.com/+shoperti"
+              "info": "https://plus.google.com/+KometiaHQ"
             },
             {
               "type": "text",
               "id": "pinterest_link",
               "label": "Pinterest",
-              "info": "https://www.pinterest.com/shoperti/"
+              "info": "https://www.pinterest.com/KometiaHQ/"
             },
             {
               "type": "text",
               "id": "instagram_link",
               "label": "Instagram",
-              "info": "https://instagram.com/shoperti/"
+              "info": "https://instagram.com/KometiaHQ/"
             },
             {
               "type": "text",
               "id": "youtube_link",
               "label": "Youtube",
-              "info": "https://www.youtube.com/user/shoperti"
+              "info": "https://www.youtube.com/user/KometiaHQ"
             },
             {
               "type": "text",
               "id": "vimeo_link",
               "label": "Vimeo",
-              "info": "https://vimeo.com/shoperti"
+              "info": "https://vimeo.com/KometiaHQ"
             },
             {
               "type": "text",
               "id": "tumblr_link",
               "label": "Tumblr",
-              "info": "http://shoperti.tumblr.com/"
+              "info": "http://KometiaHQ.tumblr.com/"
             },
             {
               "type": "text",

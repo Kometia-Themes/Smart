@@ -142,8 +142,7 @@
   </div>
   <div class="row">
     <div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-4 col-lg-offset-4 register-page__content">
-        <!-- {% form 'customer_register' 'role="form" class="register-page__login-form"' %} -->
-        <form action="https://bold-theme.shoperti.com/cuenta/login" method="POST" role="form" class="register-page__login-form">
+        <form action="/cuenta/login" method="POST" role="form" class="register-page__login-form">
           <div class="row">
             <div class="col-xs-12">
               <div class="form-group">
@@ -183,8 +182,6 @@
             </div>
           </div>
         </form>
-        <!-- {% endform %} -->
-
       </div>
   </div> <!-- row -->
 
@@ -264,7 +261,7 @@
     </div>
   </div>
   <div class="footer-legal">
-    <p class="footer-legal__description">© 2017 Subarashii Theme - Derechos reservados <br class="visible-xs"/><span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp; </span> Tienda generada con <span class="footer-legal--bold">Shoperti</span></p>
+    <p class="footer-legal__description">&copy; {{ "now"|date("Y") }} {{ store.name }} - Derechos reservados <br class="visible-xs"/><span class="hidden-xs"> &nbsp;&nbsp;|&nbsp;&nbsp; </span> Tienda generada con <span class="footer-legal--bold">Kometia</span></p>
   </div>
 </footer>
 
