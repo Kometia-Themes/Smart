@@ -1806,6 +1806,31 @@
               "label": "Colección de productos 8"
             }
           ]
+        },
+        {
+          "header": "Formato miniaturas",
+          "settings": [
+            {
+              "type": "select",
+              "id": "featured_best_collections_format",
+              "label": "Formato",
+              "default": "square",
+              "options": [
+                {
+                  "value": "portrait",
+                  "label": "Vertical"
+                },
+                {
+                  "value": "landscape",
+                  "label": "Horizontal"
+                },
+                {
+                  "value": "square",
+                  "label": "Cuadrada"
+                }
+              ]
+            }
+          ]
         }
       ]
     },

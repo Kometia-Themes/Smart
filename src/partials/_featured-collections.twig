@@ -5,7 +5,7 @@
     {% set featured_collections = featured_collections | merge([collections[settings[featured_collection]]]) %}
   {% endif %}
 {% endfor %}
-
+{% set format = settings.featured_best_collections_format %}
 {% set items = featured_collections | length %}
 {% if items == 2 or items == 5 %}
   {% set row_products = ' col-sm-6' %}
@@ -15,6 +15,17 @@
     {% set row_products = ' col-sm-6 col-md-3' %}
 {% else %}
   {% set row_products = ' col-sm-12' %}
+{% endif %}
+
+{% if format == 'portrait' %}
+  {% set width = '&w=400' %}
+  {% set height = '&h=648&fit=crop' %}
+{% elseif format == 'landscape' %}
+  {% set width = '&w=648' %}
+  {% set height = '&h=400&fit=crop' %}
+{% else %}
+  {% set width = '&w=400' %}
+  {% set height = '&h=400&fit=crop' %}
 {% endif %}
 
 {% if items > 0 %}
@@ -27,21 +38,23 @@
     </div>
     <div class="row">
     {% for collection in featured_collections if collection.is_visible is not null %}
-      <div class="col-xs-12{{ row_products }}">
       {% if collection.image_url is not null %}
         {% set image_url = collection.image_url %}
-          <div class="featured-best-collections__card featured-best-collections--bg_img" style="background-image:url('{{ image_url }}&w=360&h=224');">
       {% else %}
-        <div class="featured-best-collections__card collections-page--bg_no-img">
+        {% set image_url = 'placeholders/product-11.jpg' | global_img_url %}
       {% endif %}
-          <div class="featured-best-collections__content">
-            <div class="featured-best-collections__inner">
-              <h3 class="featured-best-collections__title">{{ collection.title }}</h3>
-              <p class="featured-best-collections__text"><a class="btn btn-lg featured-best-collections__link" href="/colecciones/{{ collection.permalink }}">VER</a></p>
+      <div class="col-xs-12{{ row_products }}">
+        <a class="btn btn-lg featured-best-collections__link" href="/colecciones/{{ collection.permalink }}">
+            <div class="featured-best-collections__content">
+              <div class="featured-best-collections__outher">
+                <div class="featured-best-collections__inner">
+                  <h3 class="featured-best-collections__title">{{ collection.title }}</h3>
+                </div>
+              </div>
             </div>
-          </div>
+            <img class="featured-best-collections__image" src="{{ image_url }}{{ width }}{{ height }}" alt="{{ collection.title }}">
+          </a>
         </div>
-      </div>
       {% endfor %}
     </div>
   </div>
