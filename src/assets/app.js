@@ -185,9 +185,10 @@ function() {
   }
     // AJAX Add to Cart Component
     // Add Product to cart by ajax
+    var root = window.location.hostname;
+    var PROTOCOL = window.location.protocol;
     var getAjaxStoteUrl = function(type) {
-      var _root = document.location.hostname;
-      return 'https://'+ _root + '/' + type;
+      return PROTOCOL + '//' + root + '/' + type;
     }
     var ajaxConfig = {
       postUrl: getAjaxStoteUrl('cart/add.js')
