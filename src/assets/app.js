@@ -283,12 +283,14 @@ $(function() {
     .done(function(data) {
       AjaxCart = data.object || {};
       totalItems = AjaxCart.total_items;
-      buildAjaxCart(AjaxCart, sku, AjaxCart.items, AjaxCart.total_price);
-      extraData = data.extra ? 1 : 0;
-      if(extraData){
-        displayCartWarning(data.extra[1]);
+      if (totalItems !== undefined) {
+        buildAjaxCart(AjaxCart, sku, AjaxCart.items, AjaxCart.total_price);
+        extraData = data.extra ? 1 : 0;
+        if(extraData){
+          displayCartWarning(data.extra[1]);
+        }
+        showAjaxCart();
       }
-    showAjaxCart();
     })
     .done(function(data){
       updateCartQty(totalItems);
