@@ -9,7 +9,7 @@
   clear: right;
   .navigation__link {
     position: relative;
-    padding: 1em 1em;
+    padding: 1.2em 1em;
     display: block;
     width: 100%;
     font-size: 14px;
@@ -26,10 +26,8 @@
     position: absolute;
     top: 0;
     right: 0;
-    padding-right: 0;
-    padding-left: 0;
     text-align: center;
-    padding: 1em 8px;
+    padding: 1.2em 1em;
     color: $nav_link_text_color;
   }
   .has-children {
