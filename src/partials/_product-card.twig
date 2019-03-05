@@ -22,7 +22,7 @@
       <div class="product-card__ribbon product-card--ofert"><span>{{ settings.product_ribbon_text }}</span></div>
       {% endif %}
       <div class="product-card__link">
-        {% if product.sku.permalink == 'default' and settings.btn_product_buy_in_list %}
+        {% if (product.sku.permalink == 'default' and settings.btn_product_buy_in_list) and (product.sku.stock_policy == 'none' or product.sku.in_stock > 0 or product.sku.is_backorderable == true) %}
         <a data-skuid="{{ product.sku.id }}" class="btn btn-primary product-card__btn add-ajax-product-btn"><i class="mdi mdi-cart-plus"></i> {{ settings.btn_product_buy_now_text }}</a>
         {% endif %}
         <a class="btn btn-primary product-card__btn" href="/productos/{{ product.permalink }}{% if product.sku.permalink != 'default' %}/{{ product.sku.permalink }}{% endif %}"><i class="mdi mdi-magnify"></i></a>

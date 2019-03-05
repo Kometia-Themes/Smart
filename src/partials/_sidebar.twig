@@ -6,6 +6,19 @@
   <ul class="sidebar__sidebar-list active">
     {% if categories | length > 0 %}
       {% for categoryElement in categories %}
+        {% if categoryElement.title == currentCategory %}
+        {% include '_category_tree_item.twig' with {
+          'category' : categoryElement,
+          'current'  : category,
+          'parent': 'categorias'
+        } only %}
+        {% endif %}
+      {% endfor %}
+  </ul>
+  {% endif %}
+  <ul class="sidebar__sidebar-list active">
+    {% if categories | length > 0 %}
+      {% for categoryElement in categories %}
         {% if categoryElement.title != currentCategory %}
         {% include '_category_tree_item.twig' with {
           'category' : categoryElement,

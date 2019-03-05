@@ -1,10 +1,10 @@
 {
   "name": "Smart",
   "version": "1.0.0",
-  "description": "Theme Smart Shoperti",
+  "description": "Theme Smart Kometia",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Shoperti-Themes/Smart.git"
+    "url": "git@github.com:kometia-themes/smart.git"
   },
   "main": "app.js",
   "scripts": {
@@ -15,11 +15,11 @@
     "serve": "webpack-dev-server --progress --colors --config ./webpack.server.config.js "
   },
   "keywords": [
-    "Shoperti",
+    "Kometia",
     "template",
     "theme"
   ],
-  "author": "Shoperti",
+  "author": "Kometia",
   "license": "ISC",
   "engineStrict": true,
   "engines": {
