@@ -75,9 +75,7 @@
           <li><a class="navigation__link visible-xs" href="/cuenta/registro">REGISTRARSE</a></li>
         {% endif %}
       {% endif %}
-      {% if cart.total_items > 0 %}
-        <li><a class="navigation__link visible-xs" href="/carrito">Carrito {{ cart.total_items }}</a></li>
-      {% endif %}
+        <li><a class="navigation__link visible-xs" href="/carrito">Carrito <span class="js-cart-mobile-qty">{{ cart.total_items }}</span></a></li>
         <li><a class="navigation__link visible-xs" href="/buscar">BUSCAR</a></li>
       </ul>
     </div><!--/.nav-collapse -->
