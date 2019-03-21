@@ -223,6 +223,7 @@ $(function() {
       $('.navigation__link.second-navigation__link.second-navigation--nonactive').removeClass('second-navigation--nonactive');
     }
     $('.second-navigation__qty').text(items);
+    $('.js-cart-mobile-qty').text(items);
   }
   var displayCartWarning = function(data) {
     ajaxCartProductCaptionAlert.empty();
