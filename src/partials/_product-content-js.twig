@@ -23,13 +23,13 @@
     })
   }
  {% endif %}
-  $(document).ajaxStart(function(){
-    $(document.body).css({'cursor':'wait'});
-    $('body a').css({'pointer-events':'none'})})
-  .ajaxStop(function(){
-    $(document.body).css({'cursor':'default'});
-    $('body a').css({'pointer-events':'auto'})}).ready(
-    function(){
+  $(document).ready(function(){
+    var formatMoney = function(price) {
+      var formatPrice = price /= 100;
+      formatPrice = formatPrice.toFixed(2);
+      formatPrice = formatPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      return '$' + formatPrice + ' {{ store.currency }}';
+    }
     // Update Social Share Links
     var title = '{{ product.name | escape }}';
     var enableZoom = {{ settings.enable_product_image_zoom ? 'true' : 'false' }};
@@ -95,7 +95,7 @@
           if(type == 'minus') {
             if(currentVal > input.attr('min')) {
               input.val(currentVal - 1).change();
-            } 
+            }
             if(parseInt(input.val()) == input.attr('min')) {
               $(this).attr('disabled', true);
             }
